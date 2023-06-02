@@ -116,9 +116,9 @@ function moveBall(){
 start.addEventListener('click', ()=>{
     timerId = setInterval(moveBall,20)
 })
-restart.addEventListener('click', ()=>{
+// restart.addEventListener('click', ()=>{
     
-})
+// })
 
 
 
