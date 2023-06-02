@@ -1,0 +1,57 @@
+.container{
+    width: fit-content;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#score{
+    margin-top: 50px;
+    margin-left: 580px;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.grid{
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 200px 420px ;
+    
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: green;
+
+}
+
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius:10px;
+    background-color: red;
+}
+
+#start{
+    margin: 520px 600px;
+    padding: 20px 80px;
+    border: none;
+    background-color: aqua;
+    border-radius: 3px; 
+    font-weight: bolder;
+    font-size: 20px;
+   
+    
+}
